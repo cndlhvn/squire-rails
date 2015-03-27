@@ -1,11 +1,11 @@
 $:.push File.expand_path("../lib", __FILE__)
 
 # Maintain your gem's version:
-require "squire_rails/version"
+require "squire-rails/version"
 
 # Describe your gem and declare its dependencies:
 Gem::Specification.new do |s|
-  s.name        = "squire_rails"
+  s.name        = "squire-rails"
   s.version     = SquireRails::VERSION
   s.authors     = ["candle"]
   s.email       = ["progted@gmail.com"]

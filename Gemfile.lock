@@ -1,7 +1,7 @@
 PATH
   remote: .
   specs:
-    squire_rails (0.0.1)
+    squire-rails (0.0.1)
       rails (~> 4.0.0)
 
 GEM
@@ -76,4 +76,4 @@ PLATFORMS
   ruby
 
 DEPENDENCIES
-  squire_rails!
+  squire-rails!

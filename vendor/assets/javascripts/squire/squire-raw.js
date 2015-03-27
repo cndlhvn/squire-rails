@@ -1353,7 +1353,12 @@ proto.setSelection = function ( range ) {
         if ( isIOS ) {
             this._win.focus();
         }
-        var sel = this._sel;
+        var sel;
+        if(this._sel === null){
+            sel  = this._win.getSelection();
+        }else{
+            sel = this._sel;
+        }
         sel.removeAllRanges();
         sel.addRange( range );
     }

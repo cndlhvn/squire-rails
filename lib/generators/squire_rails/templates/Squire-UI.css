@@ -2,42 +2,6 @@
  *  Squire-UI.css by @neilj - http://neilj.github.io/Squire/
  *  License - https://github.com/neilj/Squire/blob/master/LICENSE (MIT License)
  */
-body {
-  margin: 0;
-  font-family: 'Lato', sans-serif !important;
-}
-
-.header {
-  padding: 50px 0 30px;
-  color: #fff;
-  text-align: center;
-  background: #1d193d;
-  margin-bottom: 20px;
-}
-
-.header h1 {
-  font-size: 8em;
-  line-height: 1em;
-  font-weight: 900;
-}
-
-.header h2 {
-  margin-bottom: 1em;
-  font-size: 3em;
-  font-weight: 300;
-  text-transform: lowercase;
-  color: #afaedf;
-}
-
-.col-centered{
-  float: none;
-  margin: 0 auto;
-  width: 80%;
-}
-
-.alignCenter {
-  text-align: center;
-}
 
 iframe {
   width: 100%;
@@ -55,7 +19,7 @@ iframe {
   box-shadow: inset 0 1px 2px rgba(0,0,0,0.075);
 }
 
-.menu .item {
+.squire-menu .item {
   color:#000;
   float:left;
   background:#FFF;
@@ -65,21 +29,21 @@ iframe {
   -webkit-font-smoothing:subpixel-antialiased
 }
 
-.menu .group {
+.squire-menu .group {
   border-radius:3px;
   display:inline-block;
   border:1px #EEE solid;
   margin:5px
 }
 
-.menu .group .item .flip {
+.squire-menu .group .item .flip {
   -ms-transform:rotateY(180deg);
   -webkit-transform:rotateY(180deg);
   -moz-transform:rotateY(180deg);
   transform:rotateY(180deg)
 }
 
-.btn {
+.btn-black {
   background: #516066;
   display: block;
   position: relative;
@@ -95,7 +59,7 @@ iframe {
   border-radius: 4px;
 }
 
-input[type=text] {
+.drop-content input[type=text] {
   background-color: #fff;
   vertical-align: middle;
   max-width: 100%;
@@ -113,14 +77,14 @@ input[type=text] {
   width: 100%;
 }
 
-.menu .group .item:hover, .menu .item:first-child:hover {
+.squire-menu .group .item:hover, .squire-menu .item:first-child:hover {
 	border-bottom: 3px #55ACEE solid;
 }
 
-.menu .item:first-child {
+.squire-menu .item:first-child {
   border-left:none;
 }
-.menu {
+.squire-menu {
   text-align: center;
   -webkit-touch-callout: none;
   -webkit-user-select: none;
@@ -143,7 +107,7 @@ input[type=text] {
   display: none;
 }
 
-.quit {
+.squire-quit {
   float: right;
   top:0;
   right:0;
